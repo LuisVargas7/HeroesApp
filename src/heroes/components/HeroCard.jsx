@@ -12,7 +12,7 @@ export const HeroCard = ({
 
   process.env.NODE_ENV === "development"
     ? (heroImageUrl = `/heroes/${id}.jpg`)
-    : (heroImageUrl = `/heroes-react/heroes/${id}.jpg`);
+    : (heroImageUrl = `/HeroesApp/heroes/${id}.jpg`);
 
   return (
     <div className="col">

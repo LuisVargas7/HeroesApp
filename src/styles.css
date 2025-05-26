@@ -1,10 +1,17 @@
 body {
-  background-image: url("../public/fondo/iron-man.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
   color: white;
+}
+
+.backgroundDev {
+  background-image: url("../public/background/iron-man.jpg");
+}
+
+.backGroundPro {
+  background-image: url("/HeroesApp/background/iron-man.jpg");
 }
 
 .card-body {

@@ -15,7 +15,7 @@ export const HeroPage = () => {
 
   process.env.NODE_ENV === "development"
     ? (heroImageUrl = `/heroes/${hero.id}.jpg`)
-    : (heroImageUrl = `/heroes-react/heroes/${hero.id}.jpg`);
+    : (heroImageUrl = `/HeroesApp/heroes/${hero.id}.jpg`);
 
   const onBack = () => {
     navigate(-1);

@@ -15,6 +15,14 @@ const init = () => {
 export const AuthProvider = ({ children }) => {
   const [authstate, dispatch] = useReducer(AuthReducer, {}, init);
 
+  /*  const determinateBackground = () => {
+    return process.env.NODE_ENV === "development" ? (
+      <body style={{ fontSize: "50px" }}> </body>
+    ) : (
+      "production"
+    );
+  }; */
+
   const user = {
     id: 123,
     name,
