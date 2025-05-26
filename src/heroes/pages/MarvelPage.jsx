@@ -8,7 +8,7 @@ export const MarvelPage = () => {
 
       <hr />
 
-      <ul>
+      <ul className="p-0">
         <HeroList publisher={publisher}></HeroList>
       </ul>
     </>
